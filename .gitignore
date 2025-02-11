@@ -10,6 +10,9 @@
 /node_modules
 npm-debug.log
 yarn-error.log
+*.log
+logs/
+
 
 # IDEs and editors
 .idea/
@@ -19,6 +22,11 @@ yarn-error.log
 *.launch
 .settings/
 *.sublime-workspace
+*.swp
+*.bak
+*.tmp
+~*
+
 
 # Visual Studio Code
 .vscode/*
@@ -36,6 +44,22 @@ yarn-error.log
 /libpeerconnection.log
 testem.log
 /typings
+.chrome/
+*.snap
+
+
+# Env Files
+.env
+.env.local
+.env.*.local
+
+# Angular Temp Files
+/angular.json.bak
+/src/test.ts.bak
+
+
+# Docker
+docker-compose.override.yml
 
 # System files
 .DS_Store
